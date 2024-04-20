@@ -4,7 +4,7 @@ public class Singleton implements Cloneable {
     private static volatile Singleton instance;
 
     // Private constructor to prevent instantiation from outside
-    Singleton() {}
+    private Singleton() {}
 
     // Static method to get the singleton instance
     public static Singleton getInstance() {
